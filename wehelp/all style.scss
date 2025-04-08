@@ -1,12 +1,12 @@
 $fontcolor:#000;
 $background-color:#f19149;
-$h1fontsize:48px;
+$h1fontsize:72px;
 $h2fontsize:30px;
-$confontsize:16px;
-$namefontsize:20px;
+$confontsize:30px;
+$namefontsize:60px;
 .topbar{
   width: 100%;
-  height: 350px;
+  padding-bottom: 1%;
   background-color: $background-color;
   display: flex;
   justify-content: center;
@@ -14,7 +14,9 @@ $namefontsize:20px;
 }
 .wehelp{
   width: 60%;
-  height: 45%;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  margin-bottom: 10%;
   background-color: white;
   margin-top: 85px;
   display: flex;
@@ -25,4 +27,46 @@ h1{
   font-size: $h1fontsize;
   color: $fontcolor;
   font-family: sans-serif;
+}
+.intro p{
+  font-size: $confontsize;
+  color: $fontcolor;
+  font-family: sans-serif;
+  line-height: 50px;
+}
+.intro h1{
+  font-size: $namefontsize;
+  color: $fontcolor;
+  font-family: sans-serif;
+  line-height: 200px;
+}
+.waving{
+  width: 100%;
+  padding-bottom: 25%;
+  background-image: url(waving.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.profile{
+  width: 100%;
+  display: flex;
+}
+.photo{
+  width: 50%;
+  padding-bottom: 40%;
+  background-image: url(wehelp裁切.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.intro{
+  width: 50%;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+.con{
+  width: 40%;
+  padding-left: 50px;
+  padding-bottom: 80px;
+  margin-bottom: 80px;
 }
