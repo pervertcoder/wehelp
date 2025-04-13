@@ -20,20 +20,33 @@
 }
 
 .wehelp h1 {
-  font-size: 72px;
+  font-size: 32px;
   color: #000;
   font-family: sans-serif;
   margin-top: 25px;
   margin-bottom: 25px;
 }
 
-.waving {
+/*.waving{
   width: 100%;
+  height: 400px;
   padding-bottom: 25%;
   background-image: url(waving.jpeg);
   background-size: cover;
   background-repeat: no-repeat;
   margin-bottom: 10px;
+}*/
+.waving {
+  width: 100%;
+  height: 450px;
+  margin-bottom: 10px;
+}
+
+.waving img {
+  width: 100%;
+  height: 450px;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .profile {
@@ -58,28 +71,18 @@
   margin-top: 20px;
   margin-bottom: 20px;
   margin-left: 20px;
-  display: flex;
-  justify-content: start;
-  align-items: center;
 }
 
-.con {
-  width: 40%;
-  padding-left: 50px;
-  padding-bottom: 80px;
-  margin-bottom: 80px;
-}
-
-.con h2 {
-  font-size: 60px;
+.intro h2 {
+  font-size: 20px;
   color: #000;
   font-family: sans-serif;
   margin: 26px;
   line-height: 150px;
 }
 
-.con p {
-  font-size: 65px;
+.intro p {
+  font-size: 16px;
   color: #000;
   font-family: sans-serif;
   text-wrap: nowrap;
@@ -97,14 +100,14 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 60px;
+  font-size: 20px;
 }
 
 .content {
   margin-top: 90px;
   margin-right: 50px;
   margin-left: 50px;
-  font-size: 65px;
+  font-size: 16px;
 }
 
 .content2 {
@@ -119,19 +122,19 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 60px;
+  font-size: 20px;
 }
 
 .content2 h3 {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 60px;
+  font-size: 20px;
   margin-top: 30px;
 }
 
 .content2 p {
-  font-size: 65px;
+  font-size: 16px;
   margin-top: 90px;
   margin-right: 50px;
   margin-left: 50px;
@@ -139,14 +142,14 @@
 
 .footer {
   width: 100%;
-  height: 150px;
+  height: 18px;
   margin-top: 20px;
   background-color: #f19149;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 376px) {
   .wehelp h1 {
-    font-size: 40px;
+    font-size: 20px;
   }
   .profile {
     width: 100%;
@@ -163,51 +166,39 @@
     margin-left: auto;
   }
   .intro {
-    width: 40%;
-    height: 200px;
+    width: 100%;
+    height: 350px;
     margin-right: auto;
     margin-left: auto;
   }
-  .con {
-    width: 100%;
-    padding-top: 10%;
-    padding-bottom: 10%;
-    padding-left: 0px;
-    height: 300px;
-    margin-top: 5px;
-  }
-  .con h2 {
-    width: 100%;
-    font-size: 40px;
-    line-height: 100px;
-    margin: 10px;
+  .intro h2 {
+    font-size: 20px;
+    line-height: 40px;
     text-align: center;
   }
-  .con p {
-    width: 100%;
-    font-size: 30px;
-    margin: 10px;
+  .intro p {
+    font-size: 15px;
     text-align: center;
   }
   .showbar h2 {
-    font-size: 40px;
+    font-size: 15px;
     text-align: center;
   }
   .showbar p {
-    font-size: 30px;
+    font-size: 15px;
     text-align: center;
   }
   .content2 h2 {
-    font-size: 40px;
+    font-size: 20px;
     text-wrap: nowrap;
     text-align: center;
   }
   .content2 h3 {
-    font-size: 40px;
+    font-size: 20px;
     text-align: center;
   }
   .content2 p {
-    font-size: 30px;
+    font-size: 15px;
     text-align: center;
   }
 }/*# sourceMappingURL=all style.css.map */
