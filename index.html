@@ -6,18 +6,24 @@
     <title>wehelp 申請</title>
     <link rel="stylesheet" href="css_reset.css">
     <link rel="stylesheet" href="all style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   </head>
   <body>
     <div class="topbar">
       <div class="wehelp">
-        <h1>wehelp 申請</h1>
+        <h1 data-aos="zoom-in" data-aos-duration="6000">wehelp 申請</h1>
       </div>
     </div>
     <div class="waving">
-      <img src="waving.jpeg" alt="wave">
+      <img class="bigwaving"src="waving.jpeg" alt="wave">
+    </div>
+    <div class="waving2">
+      <img class="smallwaving"src="waving_small.jpeg" alt="small wave">
     </div>
     <div class="profile">
-      <div class="photo"></div>
+      <div class="photo">
+        <img src="wehelp裁切.png" alt="個人照">
+      </div>
       <div class="intro">
         <h2>黃良樺</h2>
         <p>1998/12/14</p>
@@ -48,5 +54,9 @@
         repellendus deserunt eum voluptatem!</p>
     </div>
     <div class="footer"></div>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
