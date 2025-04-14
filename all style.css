@@ -134,7 +134,7 @@
   background-color: #f19149;
 }
 
-@media (max-width: 376px) {
+@media (max-width: 431px) {
   .topbar {
     width: 100%;
   }
@@ -146,17 +146,16 @@
   .wehelp h1 {
     font-size: 20px;
   }
+  .smallwaving {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
   .waving {
     width: 100%;
     height: 10px;
     display: none;
     background-color: #f19149;
-  }
-  .smallwaving {
-    display: block;
-    margin: 0;
-    max-width: 100%;
-    height: auto;
   }
   .profile {
     width: 100%;
