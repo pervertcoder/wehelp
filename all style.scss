@@ -136,6 +136,9 @@ $namefontsize:20px;
     display: block;
     width: 100%;
     height: auto;
+    margin-top: - 1px;
+    position: relative;
+    z-index: -1;
   }
   .waving{
     width: 100%;
