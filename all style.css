@@ -47,7 +47,7 @@
 
 .photo {
   width: 50%;
-  padding-bottom: 40%;
+  padding-bottom: 5%;
   margin-top: 20px;
   margin-bottom: 20px;
   margin-left: 20px;
@@ -60,21 +60,41 @@
   margin-left: 20px;
 }
 
-.intro h2 {
+.intro1 {
   font-size: 20px;
   color: #000;
   font-family: sans-serif;
-  margin: 26px;
-  line-height: 150px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  /*line-height: 150px;*/
 }
 
-.intro p {
+.intro2 {
   font-size: 16px;
   color: #000;
   font-family: sans-serif;
   text-wrap: nowrap;
-  margin: 26px;
-  /*line-height: 90px;*/
+  margin: 50px 26px 26px 15px;
+  line-height: 40px;
+  white-space: wrap;
+}
+
+.intro3 {
+  font-size: 20px;
+  color: #000;
+  font-family: sans-serif;
+  margin-top: 250px;
+  margin-bottom: 5px;
+}
+
+.intro4 {
+  font-size: 16px;
+  color: #000;
+  font-family: sans-serif;
+  text-wrap: nowrap;
+  margin: 50px 26px 26px 15px;
+  line-height: 40px;
+  white-space: wrap;
 }
 
 .showbar {
@@ -91,10 +111,56 @@
 }
 
 .content {
-  margin-top: 90px;
+  margin-right: 50px;
+  margin-left: 50px;
+  margin-bottom: 50px;
+  font-size: 16px;
+  white-space: wrap;
+  list-style-type: circle;
+  line-height: 90px;
+}
+
+.smallcontent {
+  list-style-type: square;
+  margin-left: 10px;
+  line-height: 40px;
+}
+
+.futureplan1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  margin-bottom: 40px;
+}
+
+.futureplan2 {
+  font-size: 16px;
+  color: #000;
+  font-family: sans-serif;
+  text-wrap: nowrap;
+  line-height: 90px;
+  padding-left: 20px;
+}
+
+.futureplan3 {
+  margin-top: 10px;
   margin-right: 50px;
   margin-left: 50px;
   font-size: 16px;
+  white-space: wrap;
+  list-style-type: circle;
+  line-height: 40px;
+}
+
+.futureplan4 {
+  font-size: 16px;
+  color: #000;
+  font-family: sans-serif;
+  text-wrap: nowrap;
+  line-height: 40px;
+  padding-left: 20px;
+  margin-top: 50px;
 }
 
 .content2 {
@@ -179,16 +245,25 @@
   }
   .intro {
     width: 100%;
-    height: 350px;
+    padding-bottom: 1%;
     margin-right: auto;
     margin-left: auto;
   }
-  .intro h2 {
+  .intro1 {
     font-size: 20px;
     line-height: 40px;
     text-align: center;
   }
-  .intro p {
+  .intro2 {
+    font-size: 15px;
+    text-align: center;
+  }
+  .intro3 {
+    font-size: 20px;
+    line-height: 40px;
+    text-align: center;
+  }
+  .intro4 {
     font-size: 15px;
     text-align: center;
   }
@@ -196,7 +271,27 @@
     font-size: 15px;
     text-align: center;
   }
-  .showbar p {
+  .content {
+    font-size: 15px;
+    text-align: center;
+  }
+  .smallcontent {
+    font-size: 15px;
+    text-align: center;
+  }
+  .futureplan1 {
+    font-size: 15px;
+    text-align: center;
+  }
+  .futureplan2 {
+    font-size: 15px;
+    text-align: center;
+  }
+  .futureplan3 {
+    font-size: 15px;
+    text-align: center;
+  }
+  .futureplan4 {
     font-size: 15px;
     text-align: center;
   }

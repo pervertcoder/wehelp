@@ -1,16 +1,16 @@
-$fontcolor:#000;
-$background-color:#f19149;
-$h1fontsize:32px;
-$h2fontsize:30px;
-$confontsize:16px;
-$namefontsize:20px;
-.topbar{
+$fontcolor: #000;
+$background-color: #f19149;
+$h1fontsize: 32px;
+$h2fontsize: 30px;
+$confontsize: 16px;
+$namefontsize: 20px;
+.topbar {
   width: 100%;
   background-color: $background-color;
   display: flex;
   justify-content: center;
 }
-.wehelp{
+.wehelp {
   width: 60%;
   background-color: #ffffff;
   margin-top: 85px;
@@ -18,185 +18,273 @@ $namefontsize:20px;
   justify-content: center;
   align-items: center;
 }
-.wehelp h1{
+.wehelp h1 {
   font-size: $h1fontsize;
   color: $fontcolor;
   font-family: sans-serif;
   margin-top: 25px;
   margin-bottom: 25px;
 }
-.waving{
+.waving {
   width: 100%;
   height: 450px;
   margin-bottom: 10px;
 }
-.bigwaving{
+.bigwaving {
   width: 100%;
   height: 450px;
   object-fit: cover;
 }
-.smallwaving{
+.smallwaving {
   display: none;
 }
-.profile{
+.profile {
   width: 100%;
   margin-top: 30px;
   display: flex;
 }
-.photo{
+.photo {
   width: 50%;
-  padding-bottom: 40%;
+  padding-bottom: 5%;
   margin-top: 20px;
   margin-bottom: 20px;
   margin-left: 20px;
 }
-.intro{
+.intro {
   width: 50%;
   margin-top: 20px;
   margin-bottom: 20px;
   margin-left: 20px;
 }
-.intro h2{
+.intro1 {
   font-size: $namefontsize;
   color: $fontcolor;
   font-family: sans-serif;
-  margin: 26px;
-  line-height: 150px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  /*line-height: 150px;*/
 }
-.intro p{
+.intro2 {
   font-size: $confontsize;
   color: $fontcolor;
   font-family: sans-serif;
   text-wrap: nowrap;
-  margin: 26px;
-  /*line-height: 90px;*/
+  margin: 50px 26px 26px 15px;
+  line-height: 40px;
+  white-space: wrap;
 }
-.showbar{
+.intro3 {
+  font-size: $namefontsize;
+  color: $fontcolor;
+  font-family: sans-serif;
+  margin-top: 250px;
+  margin-bottom: 5px;
+}
+.intro4 {
+  font-size: $confontsize;
+  color: $fontcolor;
+  font-family: sans-serif;
+  text-wrap: nowrap;
+  margin: 50px 26px 26px 15px;
+  line-height: 40px;
+  white-space: wrap;
+}
+.showbar {
   width: 100%;
   padding-top: 10%;
   padding-bottom: 10%;
 }
-.showbar h2{
+.showbar h2 {
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: $namefontsize;
 }
-.content{
-  margin-top: 90px;
+.content {
+  margin-right: 50px;
+  margin-left: 50px;
+  margin-bottom: 50px;
+  font-size: $confontsize;
+  white-space: wrap;
+  list-style-type: circle;
+  line-height: 90px;
+}
+.smallcontent {
+  list-style-type: square;
+  margin-left: 10px;
+  line-height: 40px;
+}
+.futureplan1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: $namefontsize;
+  margin-bottom: 40px;
+}
+.futureplan2 {
+  font-size: $confontsize;
+  color: $fontcolor;
+  font-family: sans-serif;
+  text-wrap: nowrap;
+  line-height: 90px;
+  padding-left: 20px;
+}
+.futureplan3 {
+  margin-top: 10px;
   margin-right: 50px;
   margin-left: 50px;
   font-size: $confontsize;
+  white-space: wrap;
+  list-style-type: circle;
+  line-height: 40px;
 }
-.content2{
+.futureplan4 {
+  font-size: $confontsize;
+  color: $fontcolor;
+  font-family: sans-serif;
+  text-wrap: nowrap;
+  line-height: 40px;
+  padding-left: 20px;
+  margin-top: 50px;
+}
+.content2 {
   margin-top: 90px;
   margin-right: 50px;
   margin-left: 50px;
   padding-top: 30%;
   padding-bottom: 30%;
 }
-.content2 h2{
+.content2 h2 {
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: $namefontsize;
 }
-.content2 h3{
+.content2 h3 {
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: $namefontsize;
   margin-top: 30px;
 }
-.content2 p{
+.content2 p {
   font-size: $confontsize;
   margin-top: 90px;
   margin-right: 50px;
   margin-left: 50px;
 }
-.footer{
+.footer {
   width: 100%;
   height: 18px;
   margin-top: 20px;
   background-color: $background-color;
 }
-@media(max-width: 431px){
-  .topbar{
+@media (max-width: 431px) {
+  .topbar {
     width: 100%;
   }
-  .wehelp{
+  .wehelp {
     height: 60px;
     margin-top: 50px;
     margin-bottom: 50px;
   }
-  .wehelp h1{
+  .wehelp h1 {
     font-size: 20px;
   }
-  .smallwaving{
+  .smallwaving {
     display: block;
     width: 100%;
     height: auto;
-    margin-top: - 1px;
+    margin-top: -1px;
     position: relative;
     z-index: -1;
   }
-  .waving{
+  .waving {
     width: 100%;
     height: 10px;
     display: none;
     background-color: #f19149;
   }
-  .profile{
+  .profile {
     width: 100%;
     padding-top: 1%;
     padding-bottom: 1%;
     display: flex;
     flex-direction: column;
   }
-  .photo{
+  .photo {
     width: 320px;
     height: 320px;
     margin-right: auto;
     margin-left: auto;
   }
-  .photo img{
+  .photo img {
     width: 320px;
     height: 320px;
   }
-  .intro{
+  .intro {
     width: 100%;
-    height: 350px;
+    padding-bottom: 1%;
     margin-right: auto;
     margin-left: auto;
   }
-  
-  .intro h2{
+
+  .intro1 {
     font-size: 20px;
     line-height: 40px;
     text-align: center;
   }
-  .intro p{
+  .intro2 {
     font-size: 15px;
     text-align: center;
   }
-  .showbar h2{
+  .intro3 {
+    font-size: 20px;
+    line-height: 40px;
+    text-align: center;
+  }
+  .intro4 {
     font-size: 15px;
     text-align: center;
   }
-  .showbar p{
+  .showbar h2 {
     font-size: 15px;
     text-align: center;
   }
-  .content2 h2{
+  .content {
+    font-size: 15px;
+    text-align: center;
+  }
+  .smallcontent {
+    font-size: 15px;
+    text-align: center;
+  }
+  .futureplan1 {
+    font-size: 15px;
+    text-align: center;
+  }
+  .futureplan2 {
+    font-size: 15px;
+    text-align: center;
+  }
+  .futureplan3 {
+    font-size: 15px;
+    text-align: center;
+  }
+  .futureplan4 {
+    font-size: 15px;
+    text-align: center;
+  }
+  .content2 h2 {
     font-size: 20px;
     text-wrap: nowrap;
     text-align: center;
   }
-  .content2 h3{
+  .content2 h3 {
     font-size: 20px;
     text-align: center;
   }
-  .content2 p{
+  .content2 p {
     font-size: 15px;
     text-align: center;
   }
