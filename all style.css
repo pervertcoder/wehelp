@@ -120,7 +120,7 @@
 
 .smallcontent {
   list-style-type: square;
-  margin-left: 10px;
+  margin-left: 40px;
   line-height: 40px;
 }
 
@@ -227,6 +227,11 @@
   list-style-position: inside;
   padding-left: 100px;
   padding-bottom: 30px;
+}
+
+.smallsadlist {
+  list-style-type: square;
+  margin-left: 40px;
 }
 
 .footer {
