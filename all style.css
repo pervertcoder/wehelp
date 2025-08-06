@@ -221,7 +221,7 @@
   line-height: 40px;
 }
 
-.content3 li {
+.content3ul1 {
   line-height: 40px;
   list-style-type: circle;
   list-style-position: inside;
@@ -229,9 +229,25 @@
   padding-bottom: 30px;
 }
 
-.smallsadlist {
+.content3ul2 {
   list-style-type: square;
   margin-left: 40px;
+}
+
+.content3ul3 {
+  line-height: 40px;
+  list-style-type: circle;
+  list-style-position: inside;
+  padding-left: 100px;
+  padding-bottom: 30px;
+}
+
+.content3ul4 {
+  line-height: 40px;
+  list-style-type: circle;
+  list-style-position: inside;
+  padding-left: 100px;
+  padding-bottom: 30px;
 }
 
 .footer {
@@ -360,15 +376,40 @@
     font-size: 20px;
     text-wrap: wrap;
     text-align: center;
+    line-height: 25px;
+    margin-top: 10px;
   }
   .content3 p {
     font-size: 15px;
     text-align: center;
+    line-height: 25px;
   }
-  .content3 li {
+  .content3ul1 {
     font-size: 15px;
     text-align: center;
     margin-left: 0px;
     padding-left: 0px;
+    line-height: 25px;
+  }
+  .content3ul2 {
+    font-size: 15px;
+    text-align: center;
+    margin-left: 0px;
+    padding-left: 0px;
+    line-height: 25px;
+  }
+  .content3ul3 {
+    font-size: 15px;
+    text-align: center;
+    margin-left: 0px;
+    padding-left: 0px;
+    line-height: 25px;
+  }
+  .content3ul4 {
+    font-size: 15px;
+    text-align: center;
+    margin-left: 0px;
+    padding-left: 0px;
+    line-height: 25px;
   }
 }/*# sourceMappingURL=all style.css.map */
